@@ -23,7 +23,11 @@
 body{
     margin: 0 auto;
 }
-
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
 
 /*------------- header -------------*/
 
@@ -75,6 +79,7 @@ nav{
 .menu li a{
     color: #fff;
     text-shadow: 1px 1px 3px black;
+    text-decoration: none;
 }
 .menu li a:hover{
     text-decoration: none;
@@ -146,6 +151,7 @@ main>a{
     font-size: 22px;
     padding-top: 6px;
     border: 5px solid #f5f0e9;
+    text-decoration: none;
 }
 main>a:hover{
     text-decoration: none;
@@ -286,6 +292,7 @@ footer{
     font-size: 11px;
     font-family: Verdana;
     font-style: italic;
+    text-decoration: none;
 }
 .footer-block>section>div>a:hover{
     text-decoration: none;
