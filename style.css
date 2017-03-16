@@ -19,6 +19,14 @@
     font-family: Rockwell;
     src: url(fonts/RockwellRegular.ttf);
 }
+@font-face{
+    font-family: LucidaGrande;
+    src: url(fonts/LucidaGrande.ttf);
+}
+@font-face{
+    font-family: MyriadPro;
+    src: url(fonts/MyriadPro-Regular.otf);
+}
 
 body{
     margin: 0 auto;
@@ -84,6 +92,7 @@ nav{
 .menu li a:hover{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 .both-line{
     width: 100%;
@@ -152,10 +161,12 @@ main>a{
     padding-top: 6px;
     border: 5px solid #f5f0e9;
     text-decoration: none;
+    font-family: Verdana;
 }
 main>a:hover{
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
 }
 .central-box{
     width: 940px;
@@ -177,11 +188,13 @@ main>a:hover{
     color: #fff;
     letter-spacing: 1px;
     text-shadow: 1px 1px 3px black;
+    font-family: MyriadPro;
 }
 .central-box>section>h3{
     letter-spacing: 1px;
     margin-left: 10px;
     font-size: 20px;
+    font-family: LucidaGrande;
 }
 .central-box>section>p{
     font-family: Verdana;
@@ -195,9 +208,12 @@ main>a:hover{
     color: #f95959;
     font-size: 13px;
     font-weight: 600;
+    text-decoration: none;
+    font-family: Verdana;
 }
 .central-box>section>a:hover{
     text-decoration: none;
+    cursor: pointer;
 }
 .photo-2{
     width: 300px;
@@ -224,6 +240,7 @@ main>a:hover{
 .photo-3 p{
     font-family: Rockwell;
     font-size: 13px;
+    margin-top: -10px;
 }
 .central-box>section:nth-child(2){
     margin: 0px 20px 0px 20px;
@@ -242,7 +259,7 @@ footer{
 }
 .footer-block{
     width: 940px;
-    height: 380px;
+    height: 375px;
     margin: 0 auto;
 }
 .footer-block section{
@@ -296,6 +313,7 @@ footer{
 }
 .footer-block>section>div>a:hover{
     text-decoration: none;
+    cursor: pointer;
 }
 .footer-block>section>div{
     margin-top: 25px;
