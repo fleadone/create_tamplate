@@ -74,7 +74,7 @@ nav{
     font-family: BerlinSans;
     font-size: 10px;
     text-shadow: 1px 1px 3px black;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     padding-left: 5px;
     margin: 0 auto;
 }
@@ -148,7 +148,7 @@ nav{
     font-family: BerlinSans;
     font-size: 13px;
     text-shadow: 1px 1px 3px black;
-    letter-spacing: 7px;
+    letter-spacing: 6px;
     padding-left: 5px;
     margin: 0 auto;
 }
