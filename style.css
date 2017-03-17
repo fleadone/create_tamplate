@@ -56,14 +56,33 @@ nav{
     margin: 0 auto;
     margin-top: 45px;
 }
+
 .logo{
     width: 172px;
     height: 48px;
-    background-image: url(img/logo.png);
     float: left;
+}
+.logo>h3{
+    color: #fff;
+    font-family: BerlinSans;
+    font-size: 38px;
+    text-shadow: 1px 1px 3px black;
+    margin: 0;
+}
+.logo>h4{
+    color: #fff;
+    font-family: BerlinSans;
+    font-size: 10px;
+    text-shadow: 1px 1px 3px black;
+    letter-spacing: 4px;
+    padding-left: 5px;
+    margin: 0 auto;
 }
 .logo:hover{
     cursor: pointer;
+}
+.menu-button{
+    display: none;
 }
 .menu{
     width: 517px;
@@ -110,9 +129,10 @@ nav{
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 1;
 }
 .logo2{
-    width: 244px;
+    width: 246px;
     height: 67px;
     margin: 215px auto;
 }
@@ -357,12 +377,279 @@ footer{
 
 
 
-
 @media only screen and (max-width : 768px) {
     header{
-        width: 100%;
+        min-width: 700px;
+    }
+    .menu-button{
+        display: none;
     }
     nav{
         width: 700px;
     }
+    .menu{
+        margin: 0;
     }
+    .header-center{
+        width: 700px;
+    }
+    main{
+        min-width: 700px;
+    }
+    main h1{
+        width: 700px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 120px;
+    }
+    .central-box{
+        width: 700px;
+        height: 1400px;
+    }
+    .central-box section{
+        float: none;
+        margin: 0 auto;
+    }
+    .central-box>section:nth-child(2) {
+        margin: 50px auto;
+    }
+    footer{
+        min-width: 700px;
+        height: 1245px;
+        background-repeat: no-repeat;
+        background-color: #3b3b3b;
+    }
+    .footer-block{
+        width: 700px;
+        height: auto;
+    }
+    .footer-block section{
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-block>section:nth-child(2) {
+        margin: 50px auto;
+    }
+    .copyright{
+        width: 700px;
+    }
+    }
+    
+    
+    @media only screen and (max-width : 480px) {
+    header{
+        min-width: 450px;
+        height: 360px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .menu-button{
+        width: 32px;
+        height: 32px;
+        background-image: url(img/menu-button.png);
+        display: block;
+        float: right;
+        margin: 5px 5px 0px 0px;
+    }
+    nav{
+        width: 450px;
+        margin-top: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .header-center{
+        width: 450px;
+        height: 300px;
+        top: 100px;
+        background-size: 100% 100%;
+    }
+    .logo2{
+        margin: 100px auto;
+    }
+    .both-line{
+        margin-top: 260px;
+    }
+    main{
+        min-width: 450px;
+    }
+    main h1{
+        width: 450px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 120px;
+    }
+    .central-box{
+        width: 450px;
+        height: 1400px;
+    }
+    .central-box section{
+        float: none;
+        margin: 0 auto;
+    }
+    .central-box>section:nth-child(2) {
+        margin: 50px auto;
+    }
+    footer{
+        min-width: 450px;
+        height: 965px;
+        background-repeat: no-repeat;
+        background-color: #3b3b3b;
+    }
+    .footer-block{
+        width: 450px;
+        height: auto;
+    }
+    .footer-block section{
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-block>section:nth-child(2) {
+        margin: 50px auto;
+    }
+    .copyright{
+        width: 450px;
+    }
+    .copyright>p{
+        margin-right: 10px;
+    }
+}
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width : 320px) {
+    header{
+        min-width: 300px;
+        height: 360px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .logo>h4{
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-align: center;
+    }
+    .menu-button{
+        width: 32px;
+        height: 32px;
+        background-image: url(img/menu-button.png);
+        display: block;
+        float: right;
+        margin: 5px 5px 0px 0px;
+    }
+    nav{
+        width: 300px;
+        margin-top: 10px;
+    }
+    .menu{
+        display: none;
+    }
+    .header-center{
+        width: 300px;
+        height: 300px;
+        top: 100px;
+        background-size: 100% 100%;
+    }
+    .logo2{
+        margin: 100px auto;
+        text-align: center;
+    }
+    .logo2>h2{
+        font-size: 11px;
+    }
+    .both-line{
+        margin-top: 260px;
+    }
+    main{
+        min-width: 300px;
+    }
+    main h1{
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 120px;
+    }
+    .central-box{
+        width: 300px;
+        height: 1400px;
+    }
+    .central-box section{
+        float: none;
+        margin: 0 auto;
+    }
+    .central-box>section:nth-child(2) {
+        margin: 50px auto;
+    }
+    footer{
+        min-width: 300px;
+        height: 965px;
+        background-repeat: no-repeat;
+        background-color: #3b3b3b;
+    }
+    .footer-block{
+        width: 300px;
+        height: auto;
+    }
+    .footer-block section{
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-block>section:nth-child(2) {
+        margin: 50px auto;
+    }
+    .copyright{
+        width: 300px;
+    }
+    .copyright>p{
+        margin-right: 10px;
+    }
+    }
+    
+    /*------------------ drop-menu --------------------*/
+    
+.drop-menu{
+    /*display: none;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0 ,0.9);
+    z-index: 10;
+}
+#drop{
+    display: none;
+}
+.cancel{
+    background-image: url(img/cancel.png);
+    position: absolute;
+    z-index: 11;
+    width: 32px;
+    height: 32px;
+    top: 37px;
+    right: 15px;
+}
+.mini-menu{
+    font-family: BerlinSans;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 0;
+    margin-top: 60px;
+}
+.mini-menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.mini-menu>li>a:hover{
+    cursor: pointer;
+}
+.mini-menu li{
+    margin-top: 35px;
+}
+    
